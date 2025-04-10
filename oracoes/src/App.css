@@ -1,0 +1,36 @@
+.oracoes{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 30%;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: brown;
+    font-size: 20px;
+    }
+    
+    .oracoes:hover{
+      scale: 1.1;
+    }
+    
+    
+    
+    
+    
+    .container-app{
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+    
+    min-height: 100vh;
+      background: hsla(350, 73%, 47%, 1);
+      background: linear-gradient(90deg, hsla(350, 73%, 47%, 1) 15%, hsla(230, 33%, 47%, 1) 100%);
+      background: -moz-linear-gradient(90deg, hsla(350, 73%, 47%, 1) 15%, hsla(230, 33%, 47%, 1) 100%);
+      background: -webkit-linear-gradient(90deg, hsla(350, 73%, 47%, 1) 15%, hsla(230, 33%, 47%, 1) 100%);
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#cf203e", endColorstr="#505da0", GradientType=1 );
+    
+    }
